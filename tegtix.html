@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Insulation Numbers</title>
+    <link rel="stylesheet" href="tegtix.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="blue-rhino-logo.png" alt="Blue Rhino Logo" class="logo">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#" class="contact-btn">Contact</a></li>
+            </ul>
+            <button class="menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="insulation-info">
+            <h1>About insulation numbers</h1>
+            <p>The thermal resistance ( R ) in m2/W*K of a insulation material is defined by its thermal conductivity in W/m*K and often shown as y (upside down). When the desired R value is known, the necessary thickness can be calculated by multiplying R with y, which gives the thickness in meters. The official formula is: R = d y</p>
+        </section>
+
+        <section class="chart-container">
+            <canvas id="insulation-chart"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Resources</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
